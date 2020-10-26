@@ -12,8 +12,11 @@ public class Tester {
     System.out.println(ArrayOps.largest(a)) ;
     System.out.println(ArrayOps.largest(b)) ;
     System.out.println(ArrayOps.largest(c)) ;
-    int[][] d = {{1,6,3,2,6}, {12,8,61,8,3,26}} ;
-    int[][] e = {{8,42,51,6,60}, {9,2,7,41,5}, {7,1}} ;
+    int[][] d = {{1,6,3,2,6},
+                 {12,8,61,8,3,26}} ;
+    int[][] e = {{8,42,51,6,60},
+                 {9,2,7,41,5},
+                 {7,1}} ;
     System.out.println("SumRows Tests") ;
     System.out.println(Arrays.toString(ArrayOps.sumRows(d))) ;
     System.out.println(Arrays.toString(ArrayOps.sumRows(e))) ;
@@ -23,6 +26,17 @@ public class Tester {
     System.out.println("Sum Tests") ;
     System.out.println(ArrayOps.sum(d)) ;
     System.out.println(ArrayOps.sum(e)) ;
+    int[][] f = {{6,18,7,2},
+                 {4,8,11,9},
+                 {6,1,7,15}} ;
+    int[][] g = {{9,1,6},
+                 {7,9,3},
+                 {8,2,6},
+                 {0,2,7},
+                 {5,3,3}} ;
+    System.out.println("SumCols Tests") ;
+    System.out.println(Arrays.toString(ArrayOps.sumCols(f))) ;
+    System.out.println(Arrays.toString(ArrayOps.sumCols(g))) ;
   }
 
 }
