@@ -32,4 +32,10 @@ public class ArrayOps {
     return result ;
   }
 
+  public static int sum(int[][] arr) {
+    int result = 0 ;
+    result = ArrayOps.sum(ArrayOps.sumRows(arr)) ;
+    return result ;
+  }
+
 }

@@ -20,6 +20,9 @@ public class Tester {
     System.out.println("LargestInRows Tests") ;
     System.out.println(Arrays.toString(ArrayOps.largestInRows(d))) ;
     System.out.println(Arrays.toString(ArrayOps.largestInRows(e))) ;
+    System.out.println("Sum Tests") ;
+    System.out.println(ArrayOps.sum(d)) ;
+    System.out.println(ArrayOps.sum(e)) ;
   }
 
 }
