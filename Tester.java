@@ -17,6 +17,9 @@ public class Tester {
     System.out.println("SumRows Tests") ;
     System.out.println(Arrays.toString(ArrayOps.sumRows(d))) ;
     System.out.println(Arrays.toString(ArrayOps.sumRows(e))) ;
+    System.out.println("LargestInRows Tests") ;
+    System.out.println(Arrays.toString(ArrayOps.largestInRows(d))) ;
+    System.out.println(Arrays.toString(ArrayOps.largestInRows(e))) ;
   }
 
 }
