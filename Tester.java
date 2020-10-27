@@ -53,6 +53,13 @@ public class Tester {
     System.out.println(ArrayOps.isColMagic(h)) ;
     System.out.println(ArrayOps.isColMagic(i)) ;
     System.out.println(ArrayOps.isColMagic(j)) ;
+    System.out.println("isLocationMagic Tests") ;
+    int[][] k = {{2,4,2},
+                 {2,2,2}} ;
+    System.out.println(ArrayOps.isLocationMagic(k,0,1)) ;
+    System.out.println(ArrayOps.isLocationMagic(k,1,1)) ;
+    System.out.println(ArrayOps.isLocationMagic(k,0,2)) ;
+      
   }
 
 }
