@@ -37,6 +37,17 @@ public class Tester {
     System.out.println("SumCols Tests") ;
     System.out.println(Arrays.toString(ArrayOps.sumCols(f))) ;
     System.out.println(Arrays.toString(ArrayOps.sumCols(g))) ;
-  }
-
+    int[][] h = {{1,2,3,4},
+                 {2,3,4,1},
+                 {3,4,1,2}} ;
+    int[][] i = {{1,1,1},
+                 {2,2,2},
+                 {3,3,3}} ;
+    int[][] j = {{2,2,2},
+                 {2,2,2}} ;
+    System.out.println("isRowMagic Tests") ;
+    System.out.println(ArrayOps.isRowMagic(h)) ;
+    System.out.println(ArrayOps.isRowMagic(i)) ;
+    System.out.println(ArrayOps.isRowMagic(j)) ;
+}
 }
